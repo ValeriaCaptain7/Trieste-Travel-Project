@@ -2,14 +2,96 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Project</title>
-    <link rel="stylesheet" type="text/css" href="CSS/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Welcome to Trieste</title>
 </head>
 
 <body>
-    <h1>Welcome to Trieste</h1>
+    <!-- Hero Section -->
+    <header>
+        <h1>Welcome to Trieste</h1>
+        <p style="color: #fcfafa;">Discover the vibrant culture, history, and beauty of Trieste.</p>
+    </header>
+
+    <main class="container">
+        <!-- Card Grid Section -->
+        <section>
+            <h2>Discover the elegant beauty of Trieste</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="images/Trieste-1.jpg" alt="Trieste square">
+                    <div class="content">
+                        <h3>San Giusto Castle</h3>
+                        <p>Visit San Giusto Castle and step into Trieste's rich history.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Trieste-2.jpg" alt="Trieste square">
+                    <div class="content">
+                        <h3>Miramare Castle</h3>
+                        <p>Explore the stunning Miramare Castle, perched on the Gulf of Trieste.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/Trieste-3.jpg" alt="Trieste square">
+                    <div class="content">
+                        <h3>Historic Cafés</h3>
+                        <p>Savor the atmosphere of historic cafés like Caffè degli Specchi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Embedded Content Section -->
+        <section>
+            <h2>Location</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2788.3324519292073!2d13.7598694750846!3d45.664225920072134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDM5JzUxLjIiTiAxM8KwNDUnNDQuOCJF!5e0!3m2!1sit!2sit!4v1737978339662!5m2!1sit!2sit"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+                allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <!-- HTML Table Section -->
+        <section>
+            <h2>Top Attractions</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Attraction</th>
+                        <th>Location</th>
+                        <th>Entry Fee</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Miramare Castle</td>
+                        <td>Trieste</td>
+                        <td>€12</td>
+                    </tr>
+                    <tr>
+                        <td>Piazza Unità d'Italia</td>
+                        <td>Trieste</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td>San Giusto Castle</td>
+                        <td>Trieste</td>
+                        <td>€8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Valeria Panzetta. All Rights Reserved.</p>
+    </footer>
 </body>
 
 </html>
