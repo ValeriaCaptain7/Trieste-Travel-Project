@@ -139,6 +139,17 @@ footer {
     margin-top: 2rem;
 }
 
+a {
+    color: floralwhite;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+color: rgb(160, 231, 89);
+text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
